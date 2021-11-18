@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00DF0C43+2493507]\n\tOrdinal0 [0x00D8A4B1+2073777]\n\tOrdinal0 [0x00C92608+1058312]\n\tOrdinal0 [0x00CBCAA4+1231524]\n\tOrdinal0 [0x00CE6C62+1404002]\n\tOrdinal0 [0x00CD597A+1333626]\n\tOrdinal0 [0x00CE5038+1396792]\n\tOrdinal0 [0x00CD580B+1333259]\n\tOrdinal0 [0x00CB2314+1188628]\n\tOrdinal0 [0x00CB316F+1192303]\n\tGetHandleVerifier [0x00F77BF6+1548950]\n\tGetHandleVerifier [0x0102461C+2256060]\n\tGetHandleVerifier [0x00E7C13B+518107]\n\tGetHandleVerifier [0x00E7B1E0+514176]\n\tOrdinal0 [0x00D8F53D+2094397]\n\tOrdinal0 [0x00D93418+2110488]\n\tOrdinal0 [0x00D93552+2110802]\n\tOrdinal0 [0x00D9CE81+2150017]\n\tBaseThreadInitThunk [0x75DD6739+25]\n\tRtlGetFullPathName_UEx [0x770B8AFF+1215]\n\tRtlGetFullPathName_UEx [0x770B8ACD+1165]",
+      "children" : [ {
+        "name" : "test_new_bug",
+        "uid" : "5a7f6c13491627b0",
+        "parentUid" : "8dfe611f1cc9433a0e3b40120a37bd81",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637232603713,
+          "stop" : 1637232604427,
+          "duration" : 714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8dfe611f1cc9433a0e3b40120a37bd81"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

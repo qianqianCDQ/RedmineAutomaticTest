@@ -1,0 +1,72 @@
+{
+  "uid" : "3ccb4b10656056d7",
+  "name" : "test_fix_bug",
+  "fullName" : "TestCase.test_004_fix_bug.TestFixBug#test_fix_bug",
+  "historyId" : "afb13b7ddd65c1d8b6ccdc211df7526a",
+  "time" : {
+    "start" : 1637232490641,
+    "stop" : 1637232491582,
+    "duration" : 941
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "L1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_004_fix_bug"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFixBug"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-7ARBV4VK"
+  }, {
+    "name" : "thread",
+    "value" : "20464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_004_fix_bug"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "45394dc461e1b204",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '更新成功' in '<html lang=\"zh\"><head>\\n<meta charset=\"utf-8\">\\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\\n<title>错误 #18:...role=\"status\" aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div></body></html>'\n +  where '<html lang=\"zh\"><head>\\n<meta charset=\"utf-8\">\\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\\n<title>错误 #18:...role=\"status\" aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div></body></html>' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"37122087d25380a14a8396c0bd489ebc\")>.page_source\n +    where <selenium.webdriver.chrome.webdriver.WebDriver (session=\"37122087d25380a14a8396c0bd489ebc\")> = <Test.TestCase.test_004_fix_bug.TestFixBug object at 0x0000028E23A378C8>.driver",
+      "time" : {
+        "start" : 1637232482140,
+        "stop" : 1637232483241,
+        "duration" : 1101
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "L1" ]
+  },
+  "source" : "3ccb4b10656056d7.json",
+  "parameterValues" : [ ]
+}

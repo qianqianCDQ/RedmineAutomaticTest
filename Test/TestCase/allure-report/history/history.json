@@ -1,0 +1,60 @@
+{
+  "1bc0678e4d5ccfe3626d605058aef6be" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b218db61b9f28824",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637232131901,
+        "stop" : 1637232132543,
+        "duration" : 642
+      }
+    } ]
+  },
+  "afb13b7ddd65c1d8b6ccdc211df7526a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ccb4b10656056d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637232490641,
+        "stop" : 1637232491582,
+        "duration" : 941
+      }
+    } ]
+  },
+  "48b3b55c3d6b1be3b17c03898cabb5aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a7f6c13491627b0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00DF0C43+2493507]\n\tOrdinal0 [0x00D8A4B1+2073777]\n\tOrdinal0 [0x00C92608+1058312]\n\tOrdinal0 [0x00CBCAA4+1231524]\n\tOrdinal0 [0x00CE6C62+1404002]\n\tOrdinal0 [0x00CD597A+1333626]\n\tOrdinal0 [0x00CE5038+1396792]\n\tOrdinal0 [0x00CD580B+1333259]\n\tOrdinal0 [0x00CB2314+1188628]\n\tOrdinal0 [0x00CB316F+1192303]\n\tGetHandleVerifier [0x00F77BF6+1548950]\n\tGetHandleVerifier [0x0102461C+2256060]\n\tGetHandleVerifier [0x00E7C13B+518107]\n\tGetHandleVerifier [0x00E7B1E0+514176]\n\tOrdinal0 [0x00D8F53D+2094397]\n\tOrdinal0 [0x00D93418+2110488]\n\tOrdinal0 [0x00D93552+2110802]\n\tOrdinal0 [0x00D9CE81+2150017]\n\tBaseThreadInitThunk [0x75DD6739+25]\n\tRtlGetFullPathName_UEx [0x770B8AFF+1215]\n\tRtlGetFullPathName_UEx [0x770B8ACD+1165]",
+      "time" : {
+        "start" : 1637232603713,
+        "stop" : 1637232604427,
+        "duration" : 714
+      }
+    } ]
+  }
+}

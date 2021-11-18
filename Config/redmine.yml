@@ -1,0 +1,6 @@
+websites:
+  host: localhost
+
+logininfo:
+  username: root
+  password: 12345678

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "3ccb4b10656056d7",
+  "name" : "test_fix_bug",
+  "time" : {
+    "start" : 1637232490641,
+    "stop" : 1637232491582,
+    "duration" : 941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b218db61b9f28824",
+  "name" : "test_001_login[root-12345678-1]",
+  "time" : {
+    "start" : 1637232131901,
+    "stop" : 1637232132543,
+    "duration" : 642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a7f6c13491627b0",
+  "name" : "test_new_bug",
+  "time" : {
+    "start" : 1637232603713,
+    "stop" : 1637232604427,
+    "duration" : 714
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

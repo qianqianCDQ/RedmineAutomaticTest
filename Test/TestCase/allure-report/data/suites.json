@@ -1,0 +1,84 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestCase",
+    "children" : [ {
+      "name" : "test_001_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_001_login[root-12345678-1]",
+          "uid" : "b218db61b9f28824",
+          "parentUid" : "5840147decc6227b2746eaa9da1b35c7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637232131901,
+            "stop" : 1637232132543,
+            "duration" : 642
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "'12345678'", "'1'", "'root'" ]
+        } ],
+        "uid" : "5840147decc6227b2746eaa9da1b35c7"
+      } ],
+      "uid" : "6439a31c49653129b9b0acf187dc59df"
+    }, {
+      "name" : "test_004_fix_bug",
+      "children" : [ {
+        "name" : "TestFixBug",
+        "children" : [ {
+          "name" : "test_fix_bug",
+          "uid" : "3ccb4b10656056d7",
+          "parentUid" : "26171bb1b8ce6cf570492a947d6df0f8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637232490641,
+            "stop" : 1637232491582,
+            "duration" : 941
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "26171bb1b8ce6cf570492a947d6df0f8"
+      } ],
+      "uid" : "b6fa1f74e9ab7ba3884249acd3125884"
+    }, {
+      "name" : "test_003_new_bug",
+      "children" : [ {
+        "name" : "TestNewBug",
+        "children" : [ {
+          "name" : "test_new_bug",
+          "uid" : "5a7f6c13491627b0",
+          "parentUid" : "88a66462f9c1d0ea4eb42c884e7a97ad",
+          "status" : "broken",
+          "time" : {
+            "start" : 1637232603713,
+            "stop" : 1637232604427,
+            "duration" : 714
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 5,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "88a66462f9c1d0ea4eb42c884e7a97ad"
+      } ],
+      "uid" : "fbcba2d657d375f16f57cb8197280142"
+    } ],
+    "uid" : "ee79ae265a842e48c4df30f006daaf4e"
+  } ]
+}

@@ -1,0 +1,99 @@
+{
+  "uid" : "b218db61b9f28824",
+  "name" : "test_001_login[root-12345678-1]",
+  "fullName" : "TestCase.test_001_login.TestLogin#test_001_login",
+  "historyId" : "1bc0678e4d5ccfe3626d605058aef6be",
+  "time" : {
+    "start" : 1637232131901,
+    "stop" : 1637232132543,
+    "duration" : 642
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin",
+    "time" : {
+      "start" : 1637232130367,
+      "stop" : 1637232131900,
+      "duration" : 1533
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1637232132545,
+      "stop" : 1637232134628,
+      "duration" : 2083
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_001_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-7ARBV4VK"
+  }, {
+    "name" : "thread",
+    "value" : "24248-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_001_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'12345678'"
+  }, {
+    "name" : "status",
+    "value" : "'1'"
+  }, {
+    "name" : "username",
+    "value" : "'root'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b218db61b9f28824.json",
+  "parameterValues" : [ "'12345678'", "'1'", "'root'" ]
+}
