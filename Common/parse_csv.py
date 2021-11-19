@@ -1,6 +1,7 @@
 import csv
 
 
+# 解析csv文件
 def parse_csv(file):
     mylist = []
     with open(file, 'r', encoding='utf8') as f:

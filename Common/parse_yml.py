@@ -1,6 +1,6 @@
 import yaml
 
-
+# 解析yaml文件
 def parse_yml(file, section, key):
     with open(file, 'r', encoding="utf8") as f:
         data = yaml.load(f, Loader=yaml.FullLoader)

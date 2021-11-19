@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 
 
+# bug列表页
 class BugDetailsPage(object):
 
     def __init__(self, driver):
